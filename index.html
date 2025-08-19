@@ -3,13 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Samui Villa Homes • Own, Enjoy, Earn</title>
+  <title>Samui Villa Homes • Luxury Villas for Sale</title>
   <meta name="description" content="Discover Koh Samui villas: beachfront and hillside homes with rental income potential. Learn how to buy safely and get matched with vetted opportunities." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://samuivilla.homes/" />
+  <link rel="preconnect" href="https://kohsamui.investments">
+  <link rel="dns-prefetch" href="https://kohsamui.investments">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Samui Villa Homes • Own, Enjoy, Earn" />
+  <meta property="og:title" content="Samui Villa Homes • Luxury Villas for Sale" />
   <meta property="og:description" content="Explore luxury villas in Koh Samui and get matched to opportunities that fit your budget and goals." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1600&auto=format&fit=crop" />
@@ -58,20 +60,46 @@
     <div class="badge">SamuiVilla<span style="opacity:.7">.homes</span></div>
 
     <div class="card" role="region" aria-label="Samui villas intro">
-      <h1>Luxury Villas in Koh Samui</h1>
-      <p>Own a hillside sea-view or beachfront villa on Thailand’s most desirable island. Enjoy personal stays and earn when you’re away with professional rental management.</p>
+      <h1>Own a Villa in Koh Samui</h1>
+      <p>Choose from hillside sea-view retreats or beachfront estates on Thailand’s most desirable island. Enjoy personal stays—and earn rental income when you’re away.</p>
       <p style="opacity:.9">Tell us your budget and timeline—we’ll match you privately with vetted opportunities that fit.</p>
+
       <a class="cta" href="https://kohsamui.investments/?utm_source=samuivilla.homes&utm_medium=referral&utm_campaign=cta">
-  Learn more &nbsp;→
-</a>
+        Browse Samui villas &nbsp;→
+      </a>
+      <p style="font-size:13px;opacity:.85;margin-top:10px">Private intake • No spam • Expert-vetted opportunities</p>
+
+      <p style="margin-top:10px">
+        <a class="cta" style="background:transparent;border-color:rgba(255,255,255,.35)"
+           href="https://kohsamui.investments/guide.html?utm_source=samuivilla.homes&utm_medium=referral&utm_campaign=soft">
+          Preview villa buyer’s guide &nbsp;→
+        </a>
+      </p>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function(){
+          const cta = document.querySelector('.cta');
+          if(!cta) return;
+          cta.addEventListener('click', function(){
+            try {
+              gtag('event', 'cta_click', {
+                event_category: 'engagement',
+                event_label: 'samuivilla.homes_primary',
+                value: 1
+              });
+            } catch(e){}
+          });
+        });
+      </script>
     </div>
 
     <div class="foot">
-  Private intake • No spam • HTTPS secure
-  <div style="font-size:11px;opacity:.6;margin-top:4px">
-    <a href="/faq" style="color:#aaa;text-decoration:none">FAQ</a> • 
-    <a href="/guide" style="color:#aaa;text-decoration:none">Guide</a>
+      Private intake • No spam • HTTPS secure
+      <div style="font-size:11px;opacity:.6;margin-top:4px">
+        <a href="/faq" style="color:#aaa;text-decoration:none">FAQ</a> • 
+        <a href="/guide" style="color:#aaa;text-decoration:none">Guide</a>
+      </div>
+    </div>
   </div>
-</div>
 </body>
 </html>
